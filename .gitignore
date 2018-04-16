@@ -7,5 +7,5 @@
 *.userosscache
 *.sln.docstates
 *.sln
-
+*.db
 *.VC.opendb
