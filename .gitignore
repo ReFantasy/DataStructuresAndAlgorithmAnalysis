@@ -1,6 +1,2 @@
-
-/数据结构与算法分析.VC.VC.opendb
-/数据结构与算法分析.sln
-/数据结构与算法分析.VC.db
-
-*.vs
+*数据结构与算法分析.vcxproj
+*数据结构与算法分析.vcxproj.filters
