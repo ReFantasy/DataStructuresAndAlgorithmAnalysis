@@ -18,6 +18,9 @@ void RadixSort(unsigned int Array[], const unsigned int N)
 		PushToBucket(Array, N, buckets, sizePerBucket, i);
 		PopToBucket(Array, buckets, sizePerBucket);
 	}
+
+	for (size_t i = 0; i < 10; i++)
+		delete []buckets[i];
 }
 
 void PushToBucket(unsigned int Array[], const unsigned int N,
