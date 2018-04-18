@@ -61,7 +61,9 @@ void TestRadixSort(unsigned int dataSize)
 		array[i] = u(e);
 		varry.push_back(array[i]);
 	}
+
 	cout << "------------------" << "Data Number:" << n << "--------------------" << endl << endl;
+	
 	cout << "------------------RadixSort--------------------" << endl;
 	clock_t t1 = clock();
 	RadixSort(array, n);
@@ -75,4 +77,6 @@ void TestRadixSort(unsigned int dataSize)
 	clock_t t4 = clock();
 	cout << "clocks: " << (t4 - t3) << endl;
 	cout << "second: " << (t4 - t3) / CLOCKS_PER_SEC << endl;
+	
+	delete[]array;
 }
